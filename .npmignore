@@ -1,0 +1,30 @@
+# Source files
+src/
+tests/
+examples/
+docs/
+
+# Config files
+.gitignore
+.eslintrc
+.prettierrc
+tsconfig.json
+tsconfig.build.json
+vitest.config.ts
+tsup.config.ts
+
+# Development files
+*.log
+*.tgz
+.DS_Store
+.env
+.vscode/
+.idea/
+coverage/
+.github/
+
+# Keep these
+!dist/
+!README.md
+!LICENSE
+!package.json
