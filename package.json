@@ -13,7 +13,8 @@
   "scripts": {
     "dev": "tsup --watch",
     "build": "tsup",
-    "test": "vitest",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "test:coverage": "vitest --coverage",
     "lint": "eslint src --ext .ts,.tsx",
     "type-check": "tsc --noEmit",
@@ -33,12 +34,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourorg/oauth2-pkce-client"
+    "url": "https://github.com/jwalterss/outh2-pkce-client"
   },
   "bugs": {
-    "url": "https://github.com/yourorg/oauth2-pkce-client/issues"
+    "url": "https://github.com/jwalterss/outh2-pkce-client/issues"
   },
-  "homepage": "https://github.com/yourorg/oauth2-pkce-client#readme",
+  "homepage": "https://github.com/jwalterss/outh2-pkce-client#readme",
   "devDependencies": {
     "@types/node": "^20.0.0",
     "@types/react": "^18.0.0",
